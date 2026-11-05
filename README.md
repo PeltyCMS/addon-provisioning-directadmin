@@ -2,7 +2,7 @@
 
 Auto-provision DirectAdmin from PeltyCMS orders
 
-Official **provisioning module** for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS) — identifier `provisioning-directadmin`.
+Official provisioning module for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
@@ -18,25 +18,21 @@ Providers who sell hosting, VPS, game panels or cloud and need auto-create on pa
 
 ## How it works
 
-1. Install **DirectAdmin** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-directadmin) (or Pelty Admin → Addons → Marketplace).
-2. Open Pelty Admin and enter your DirectAdmin credentials in the addon settings.
-3. Attach it to the products / forms / login flows you care about.
-4. New orders and sign-ins use DirectAdmin automatically.
+1. Install **DirectAdmin** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-directadmin) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Products, map a product to the DirectAdmin module, and save API credentials.
+3. Customers hit checkout / login / order flow as usual — DirectAdmin runs in the background.
 
 ## Requirements
 
-- A running PeltyCMS panel with WASM addons enabled
-- Valid DirectAdmin API / OAuth / panel credentials (depending on the integration)
-- Outbound HTTPS from the panel to DirectAdmin
+- PeltyCMS with WASM addons enabled
+- Working DirectAdmin credentials
+- Outbound HTTPS from your panel
 
 ## Get it
 
-[DirectAdmin on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-directadmin)
-
-Free official build. Source for this package lives in this repository.
+**[DirectAdmin on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-directadmin)**
 
 ## Support
 
-- Marketplace product page: https://market.mythicalsystems.org/marketplace/product/provisioning-directadmin
-- PeltyCMS core: https://github.com/MythicalLTD/PeltyCMS
-- Issues for this addon: use this repo’s Issues tab
+Bugs and questions for this addon → Issues on this repo.  
+PeltyCMS core → https://github.com/MythicalLTD/PeltyCMS
